@@ -256,16 +256,28 @@ plt.show()
 
 ![Alt text](image-33.png)
 
-# This section perfprm Bivariate EDA on the the dataset
+# This section perform Bivariate EDA on the the dataset
 
 ![Alt text](image-34.png)
 
 ![Alt text](image-35.png)
 
+A positive correlation of scattered plot usually shows data points that generally form a upward-sloping pattern from the lower left to upper right of the plots. This means that as the value of the x-axis variable increases, the value of the y-axis variable tends to increase as well. Then, if the data points form a downward sloping pattern from the upper left to the lower right of the plot, it is a negative correlation.
+No correlation is when the data points appear scattered randomly without any discernible pattern. It suggest no significant correlation between the two variables.
+Therefore, here, this scatter plot shows a no correlation between price and change %.
+
 # Correlation Analysis:
 
 ![Alt text](image-36.png)
 
+Correlation between Price and Change %: 0.01743277787435208
+The correlation coefficient between 'Price' and 'Change %' is approximately 0.0174. This value represents the strength and direction of the linear relationship between these two variables. Here's how to interpret the correlation coefficient:
+
+Strength of the Relationship: The correlation coefficient, in this case, is very close to 0. This indicates a very weak linear relationship between 'Price' and 'Change %.'
+
+Direction of the Relationship: The positive sign of the correlation coefficient (0.0174) indicates a positive relationship. However, the value is so close to zero that the relationship is practically negligible.
+
+In summary, the correlation coefficient of 0.0174 suggests that there is almost no linear relationship between 'Price' and 'Change %' in your dataset. This means that changes in the 'Price' variable are not significantly influenced by changes in the 'Change %' variable. The relationship is so weak that it is unlikely to have any practical or meaningful impact in your analysis.
 # Perform Correlation Matrix
 ![Alt text](image-37.png)
 
